@@ -82,15 +82,7 @@ def update_bar_chart(_):
     Output('line-chart', 'figure'),
     Input('line-chart', 'id')
 )
-#def update_line_chart(_):
-    #cursor.execute('SELECT transaction_date, amount FROM transactions')
-    #df = pd.DataFrame(cursor.fetchall(), columns=['Date', 'Amount'])
-    #fig = px.line(df, x='Date', y='Amount', title='Transaction Amounts Over Time')
-    #return fig
-#@app.callback(
-    #Output('line-chart', 'figure'),
-    #Input('line-chart', 'id')*/
-#)
+
 def update_line_chart(_):
     # Open a new connection inside the callback
     conn = sqlite3.connect('example.db')
