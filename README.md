@@ -19,7 +19,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/username/repository_name.git
+git clone [https://github.com/username/repository_name.git](https://github.com/satyamkrshaw91/Develop-a-Python-Application-for-Database-Interaction-Data-Processing-and-Visualization-using-Dash.git)
 cd repository_name
 Create and activate a virtual environment (optional but recommended):
 
